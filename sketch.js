@@ -79,7 +79,7 @@ function draw() {
     camera.y=displayHeight/2;
     spawnVirus();
     //El juego termina con la distancia
-    if(distance>500){
+    if(distance>5000){
       gameState=FINISH;
     }
     if(virusGroup.isTouching(earth)){
